@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+a {
+  display: block;
+  margin: 2em 0;
+  padding: 0.5em 0;
+  border: solid 1px #c0c0c0;
+  background-color: #e7e9ec;
+  color: #000;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #a1a2a5;
+}

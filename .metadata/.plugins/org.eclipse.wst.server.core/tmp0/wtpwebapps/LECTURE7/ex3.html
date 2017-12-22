@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form method="post" action="ex3.jsp" >
+
+<table bgcolor="#00ffff">
+        <tr>
+            <th align="left">学籍番号（ハイフンなし10桁の数字）</th>
+            <td><input type="text" name="num"></td>
+        </tr>
+        <tr>
+            <th align="left">氏名</th>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <th align="left">メールアドレス</th>
+            <td><input type="text" name="add"></td>
+        </tr>
+</table>
+<hr>
+1.授業の内容は理解できましたか。<br>
+<input type="radio" name="s" value="5">非常にそう思う
+<input type="radio" name="s" value="4">そう思う
+<input type="radio" name="s" value="3">どちらともいえない
+<input type="radio" name="s" value="2">そう思わない
+<input type="radio" name="s" value="1">全くそう思わない<br>
+
+2.教員の説明のしかたはわかりやすかったですか？。<br>
+<input type="radio" name="te" value="5">非常にそう思う
+<input type="radio" name="te" value="4">そう思う
+<input type="radio" name="te" value="3">どちらともいえない
+<input type="radio" name="te" value="2">そう思わない
+<input type="radio" name="te" value="1">全くそう思わない<br>
+
+3.教員の話し方は明瞭でしたか。<br>
+<input type="radio" name="ta" value="5">非常にそう思う
+<input type="radio" name="ta" value="4">そう思う
+<input type="radio" name="ta" value="3">どちらともいえない
+<input type="radio" name="ta" value="2">そう思わない
+<input type="radio" name="ta" value="1">全くそう思わない<br>
+
+4.黒板の文字やパワーポイントなどの資料の提示は明瞭でしたか？<br>
+<input type="radio" name="w" value="5">非常にそう思う
+<input type="radio" name="w" value="4">そう思う
+<input type="radio" name="w" value="3">どちらともいえない
+<input type="radio" name="w" value="2">そう思わない
+<input type="radio" name="w" value="1">全くそう思わない<br>
+
+5.教員はクラスの勉学の雰囲気を保つように努めていましたか？<br>
+<input type="radio" name="a" value="5">非常にそう思う
+<input type="radio" name="a" value="4">そう思う
+<input type="radio" name="a" value="3">どちらともいえない
+<input type="radio" name="a" value="2">そう思わない
+<input type="radio" name="a" value="1">全くそう思わない<br>
+
+6.この教員の授業を１０点法で評価してください。<br>
+<select name = "p">
+<option value="10">10
+<option value="9">9
+<option value="8">8
+<option value="7">7
+<option value="6">6
+<option value="5">5
+<option value="4">4
+<option value="3">3
+<option value="2">2
+<option value="1">1
+</select>
+<br>
+7.自由回答欄（140文字以内）<br>
+<textarea name="t_name3" cols="25" rows="4"></textarea><br>
+<input type="submit" name="btn" value="送信">
+<input type="reset" value="リセット">
+</form>
+</body>
+<style>
+body {
+	line-height: 40px;
+}
+</style>
+</html>

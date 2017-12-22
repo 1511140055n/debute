@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+.main {
+    width: 80%;
+    margin:auto;
+    color: #666666;
+
+}
+.main div   {
+    width: 80%;
+    margin: 0 auto;
+}
+.img {
+	margin: 0 auto;
+	margin: 10px;
+}
+h1{
+	color: #666666;
+}
+h2{
+	color: #666666;
+}
+
+#new dl{
+	margin: 0px 20px 0px;
+}
+#new dt {
+	font-weight: bold;
+	float: left;
+	width: 8em;
+}
+#new dd {
+	border-bottom: 1px solid #ccc;
+	padding-left: 8em;
+}
+
+initialize.css:1
+.clearfix {
+    zoom: 1;
+}
+boxA {
+  border: none;
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+ .box1{
+  float: left;
+  border-color: yellow;
+  width: 40%;
+}

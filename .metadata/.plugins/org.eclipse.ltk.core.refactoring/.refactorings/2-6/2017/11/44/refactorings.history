@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring accessors="true" comment="Delete element from プロジェクト &apos;2-6&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;2-6&apos;&#x0D;&#x0A;- オリジナル要素: &apos;zozo.html&apos;" description="要素を削除" element1="WebContent/zozo.html" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1509511532812" subPackages="false" version="1.0"/>&#x0A;<refactoring accessors="true" comment="Delete element from プロジェクト &apos;2-6&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;2-6&apos;&#x0D;&#x0A;- オリジナル要素: &apos;zozo.css&apos;" description="要素を削除" element1="WebContent/zozo.css" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1509511537422" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,38 @@
+CREATE TABLE ITEM(
+ITEMID INT PRIMARY KEY generated always as identity,
+ITEMIMG VARCHAR(50) NOT NULL,
+ITEMNAME VARCHAR(50) NOT NULL,
+PRICE INT NOT NULL
+)
+
+INSERT INTO	ITEM (ITEMIMG,ITEMNAME,PRICE)
+VALUES ('water1.jpg','San Benedetto ナチュラルスパークリングミネラルウォーター 500ml×24本',1830)
+
+INSERT INTO	ITEM (ITEMIMG,ITEMNAME,PRICE)
+VALUES ('water2.jpg','San Benedetto(サンベネデット) ナチュラルミネラルウォーター 500ml×24本',1679)
+
+INSERT INTO	ITEM (ITEMIMG,ITEMNAME,PRICE)
+VALUES ('water3.jpg','San Benedetto ナチュラルスパークリングミネラルウォーター 750ml×12本',3328)
+
+INSERT INTO	ITEM (ITEMIMG,ITEMNAME,PRICE)
+VALUES ('water4.jpg','San Benedetto(サンベネデット) ナチュラルミネラルウォーター 500ml×20本',4890)
+
+INSERT INTO	ITEM (ITEMIMG,ITEMNAME,PRICE)
+VALUES ('water5.jpg','San Benedetto(サンベネデット) ナチュラルミネラルウォーター 750ml×12本',3583)
+
+SELECT * FROM ITEM
+
+
+DROP TABLE ITEM
+
+CREATE TABLE CART22(
+FOREIGN KEY ITEMID REFERENCES ITEM(ITEMID),
+QTY int NOT NULL
+)
+
+
+
+
+CREATE TABLE CART(
+CARTID INT PRIMARY KEY generated as identity
+)

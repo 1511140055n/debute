@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+ul {
+
+  width: 100%;
+}
+li {
+  width: 40%;
+  padding: 0;
+  list-style: none;
+}
+.pacific {
+  background-color: #9fd9f6;
+}
+.central {
+  background-color: #d2ffd2;
+}

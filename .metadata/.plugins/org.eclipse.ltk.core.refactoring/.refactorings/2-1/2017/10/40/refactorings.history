@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;derbyclient.jar&apos; to &apos;lib&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;2-1&apos;&#x0D;&#x0A;- 宛先要素: &apos;lib&apos;&#x0D;&#x0A;- オリジナル要素: &apos;derbyclient.jar&apos;" description="ファイルをコピー" element1="WebContent/WEB-INF/lib/derbyclient.jar" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1507104549039" target="/2-3/WebContent/WEB-INF/lib" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+/* --- ボックス --- */
+div.section {
+width: 298px; /* ボックスの幅 */
+background-color: #ffffff; /* ボックスの背景色 */
+border: 1px #c0c0c0 solid; /* ボックスの境界線 */
+font-size: 80%; /* ボックスの文字サイズ */
+}
+
+/* --- 見出し --- */
+div.section h3 {
+margin: 0; /* 見出しのマージン */
+padding: 5px 10px; /* 見出しのパディング（上下、左右） */
+background-color: #f5f5f5; /* 見出しの背景色 */
+border-bottom: 1px #c0c0c0 dotted; /* 見出しの下境界線 */
+font-size: 100%; /* 見出しの文字サイズ */
+}
+
+/* --- 本文領域 --- */
+div.section div.textArea {
+height: 120px; /* 本文領域の高さ */
+overflow: auto;
+}
+
+/* --- 本文領域内の段落 --- */
+div.section div.textArea p {
+margin: 1em 10px; /* 段落のマージン（上下、左右） */
+}

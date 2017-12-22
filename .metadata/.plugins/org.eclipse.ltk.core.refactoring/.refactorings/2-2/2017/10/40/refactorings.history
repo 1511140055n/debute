@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;bmiResult.jsp&apos; to &apos;lib&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;2-2&apos;&#x0D;&#x0A;- 宛先要素: &apos;lib&apos;&#x0D;&#x0A;- オリジナル要素: &apos;bmiResult.jsp&apos;" description="ファイルをコピー" element1="WebContent/bmiResult.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1507099141447" target="/2-3/WebContent/WEB-INF/lib" units="0" version="1.0"/>
+</session>

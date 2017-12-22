@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+.wrapper {
+  width: 60%;
+  margin: auto;
+}
+
+/*ログインや新規登録でのuser情報入力欄*/
+.user-info {
+  padding: 2em;
+  border: solid 1px #c0c0c0;
+  border-radius: 3px;
+}
+.user-info input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 1em;
+  font-size: 15px;
+}
+.user-info input[type="checkbox"] {
+  width: 30px;
+}
+.user-info  .determine {
+  height: 40px;
+  margin-top: 1em;
+  border-radius: 5px;
+  font-size: 15px;
+  border-style: none;
+  background-color: #007fad;
+  color: #fff;
+}
+.user-info  .determine:hover {
+  background-color: #005573;
+}
+
+/*警告メッセージ*/
+.alert {
+  margin-bottom: 2em;
+  padding: 1em;
+  text-align: center;
+  border: solid 1px #e4a497;
+  border-radius: 5px;
+  color: #000;
+  background-color: #f1d1cb;
+}
